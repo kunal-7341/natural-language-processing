@@ -27,7 +27,7 @@ you can kill them with `! pkill -9 python3` and check with `! nvidia-smi` that G
 
 **Known issues:**
 * No support for `ipywidgets`, so we cannot use fancy `tqdm` progress bars.
-For now, we use a simplified version of a progress bar suitable for Colab.
+For now, we use a simplified version of a progress bar suidftable for Colab.
 * Blinking animation with `IPython.display.clear_output()`.
 It's usable, but still looking for a workaround.
 
